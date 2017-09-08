@@ -24,7 +24,9 @@
     <!--JS-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src ="js/bootstrap.min.js"></script>
+      <script src ="js/bootstrap.min.js"></script>
+      <script src ="js/index.js"></script>
+
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -56,15 +58,15 @@
             </button>
 
 
-            <a href="index.html" class="pull-left"><img src="img/NYC_logo_black.png" height="35px"style="PADDING-TOP: 15px"></a>
+            <a href="index.html" class="pull-left"><img src="img/NYC_logo_black.png" height="50px"style="PADDING-TOP:15px PADDING-BOTTOM:15px"></a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
 
-              <li><a href="index.html">About</a></li>
-              <li><a href="mailto:ekadernauth@hhs.nyc.gov">Contact</a></li>
+              <li><a href="index.html"><b>About</b></a></li>
+              <li><a href="mailto:ekadernauth@hhs.nyc.gov"><b>Contact</b></a></li>
               <li class="dropdown">
-                <a href="http://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Open Positions <span class="caret"></span></a>
+                <a href="http://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>Open Positions</b><span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li class="dropdown-header">Data</li>
                   <li><a href="dataarchitect.html">Data Architect</a></li>
@@ -148,41 +150,51 @@ Our Service Design work develops solutions rooted in insights about the holistic
            <b><h4>NYC Forward</b></h4>
             <p><h4>Working across sectors to improve quality of life using smart technologies and real-time data.
 </h4></p>
-
+          <div class="listings-menu" id="nyc-forward">
             <li class="list-group-item list-group-item-info"><b>Current Openings:</b></li>
-  <a href="dataarchitect.html" class="list-group-item">Data Architect</a>
-  <a href="businessintelligenceanalyst.html" class="list-group-item">Business Intelligence Analyst</a>
+            <li class="empty-message list-group-item"><i>There are currently no listings available</i></li>
+            <a href="dataarchitect.html" class="list-group-item">Data Architect</a>
+            <a href="businessintelligenceanalyst.html" class="list-group-item">Business Intelligence Analyst</a>
+          </div>
 <br>
 
            <p> <b><h4>NYC X</b></h4>
             <p><h4>Making NYC the best place to responsibly develop, test, and launch breakthrough technologies.</h4></p>
 
-            <li class="list-group-item list-group-item-info"><b>Current Openings:</b></li>
-            <a href="studiomanager.html" class="list-group-item">Studio Manager</a>
-            <a href="designer.html" class="list-group-item">Designer</a>
-            <a href="trainer.html" class="list-group-item">Training and Outreach Specialist</a>
-            <a href="designapprentice.html" class="list-group-item">Design Apprentice</a>
-            <a href="apprentice.html" class="list-group-item">Apprentice</a>
-
+            <div class="listings-menu"  id="nyc-x">
+              <li class="list-group-item list-group-item-info"><b>Current Openings:</b></li>
+              <li class="empty-message list-group-item"><i>There are currently no listings available</i></li>
+              <a href="studiomanager.html" class="list-group-item">Studio Manager</a>
+              <a href="designer.html" class="list-group-item">Designer</a>
+              <a href="trainer.html" class="list-group-item">Training and Outreach Specialist</a>
+              <a href="designapprentice.html" class="list-group-item">Design Apprentice</a>
+              <a href="apprentice.html" class="list-group-item">Apprentice</a>
+            </div>
 <br>
             <p><b><h4>NYC Digital</b></h4>
             <p><h4>Developing tools and strategies to help create user-centered digital services that make government more accessible.</h4></p>
 
-            <li class="list-group-item list-group-item-info"><b>Current Openings:</b></li>
-            <a href="director_techdev.html" class="list-group-item">Director of Technology Development</a>
-            <a href="infrastructuremanager.html" class="list-group-item">Infrastructure Manager</a>
-            <a href="backenddev.html" class="list-group-item">Back End Developer</a>
-            <a href="fullstackdev.html" class="list-group-item">Full Stack Developer</a>
+            <div class="listings-menu" id="nyc-digital">
+              <li class="list-group-item list-group-item-info"><b>Current Openings:</b></li>
+              <!-- <li class="empty-message list-group-item"><i>There are currently no listings available</i></li> -->
+              <a href="director_techdev.html" class="list-group-item">Director of Technology Development</a>
+              <a href="infrastructuremanager.html" class="list-group-item">Infrastructure Manager</a>
+              <a href="backenddev.html" class="list-group-item">Back End Developer</a>
+              <a href="fullstackdev.html" class="list-group-item">Full Stack Developer</a>
+            </div>
 
 <br>
             <p><b><h4>NYC Connected</b></h4>
             <p><h4>Bringing broadband, digital literacy, and internet safety to all New Yorkers.</h4></p>
 
-            <li class="list-group-item list-group-item-info"><b>Current Openings:</b></li>
-            <a href="director_techdev.html" class="list-group-item">Director of Technology Development</a>
-            <a href="infrastructuremanager.html" class="list-group-item">Infrastructure Manager</a>
-            <a href="backenddev.html" class="list-group-item">Back End Developer</a>
-            <a href="fullstackdev.html" class="list-group-item">Full Stack Developer</a>
+            <div class="listings-menu" id="nyc-connected">
+              <li class="list-group-item list-group-item-info"><b>Current Openings:</b></li>
+              <li class="empty-message list-group-item"><i>There are currently no listings available</i></li>
+              <a href="director_techdev.html" class="list-group-item">Director of Technology Development</a>
+              <a href="infrastructuremanager.html" class="list-group-item">Infrastructure Manager</a>
+              <a href="backenddev.html" class="list-group-item">Back End Developer</a>
+              <a href="fullstackdev.html" class="list-group-item">Full Stack Developer</a>
+            </div>
         </div>
       </div>
 
