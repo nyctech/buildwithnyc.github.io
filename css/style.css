@@ -54,9 +54,10 @@ a {
     color: #25237a;
 }
 
+font.underline-on-hover:hover {
+  text-decoration: underline;
+}
 
 .list-group-item-info {
   color: #2F334F;
   background-color: #FCBC70;
-
-
