@@ -1,5 +1,5 @@
 .jumbotron {
-    background-color: #3356A5;
+  background-color: #3356A5;
 }
 .jumbotron h1 {
     color: #fff;
@@ -17,7 +17,7 @@
     background-color: #2F334F;
     border-color: #2F334F;
 }
-p .lead {
+p.lead {
   color: #fff;
 }
 .panel-primary> .panel-heading {
@@ -50,7 +50,7 @@ a {
     border-color: #ffffff;
 }
     .navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
+    .navbar-default .navbar-brand:focus {
     color: #25237a;
 }
 

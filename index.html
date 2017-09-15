@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -23,9 +22,27 @@
 
     <!--JS-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src ="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script src ="js/bootstrap.min.js"></script>
-      <script src ="js/index.js"></script>
+      <script>
+        $(document).ready(() => {
+          if ($('div#nyc-forward').children().length > 2) {
+            $('li#empty-message-forward').hide()
+          }
+
+          if ($('div#nyc-x').children().length > 2) {
+            $('li#empty-message-x').hide()
+          }
+
+          if ($('div#nyc-digital').children().length > 2) {
+            $('li#empty-message-digital').hide()
+          }
+
+          if ($('div#nyc-connected').children().length > 2) {
+            $('li#empty-message-connected').hide()
+          }
+        })
+      </script>
 
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -38,11 +55,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-	
-</head>
-    
 
-  <body>
+</head>
+
+
+  <body style="margin:0 padding:0;">
 
 
     <div class="container">
@@ -76,9 +93,9 @@
           <br>
                   <li class="dropdown-header">NYCx</li>
     		          <li><a href="srfuturist.html">Senior Futurist</a></li>
-                  <li><a href="programdirector.html">Program Director</a></li> 
-		
-			
+                  <li><a href="programdirector.html">Program Director</a></li>
+
+
                 </ul>
               </li>
             </ul>
@@ -104,10 +121,10 @@
           <div class="panel panel-primary">
             <div class="panel-heading"><h3><span class="glyphicon glyphicon-modal-window" aria-hidden-"true"></span>&nbsp;&nbsp;<b>Our Work</b></h3></div>
           <div class="panel-body"><p><h4>Our projects take different shapes and sizes but all center on the goal of improving quality of life for all New Yorkers.</p>
-                                     <p>Working with us might mean developing and implementing large-scale broadband infrastructure projects, partnering with local institutions to 
+                                     <p>Working with us might mean developing and implementing large-scale broadband infrastructure projects, partnering with local institutions to
 			 	        bring digital literacy programming to public housing, building user-centered digital products with City agencies, or working with local entrepreneurs and residents to prepare for a future with driverless cars.</p>
-                                     <p>Read about our projects in more detail on <a href="http://www1.nyc.gov/site/forward/index.page">our website</a>.</p>   
-		  
+                                     <p>Read about our projects in more detail on <a href="http://www1.nyc.gov/site/forward/index.page">our website</a>.</p>
+
 
 
 
@@ -121,34 +138,35 @@
           <div class="panel-body">
 
 <p>
-           <b><h4>NYC Forward</b></h4>
-            <p><h4>Working across sectors to improve quality of life using smart technologies and real-time data.
-</h4></p>
+          <b><h4>NYC Forward</b></h4>
+            <p><h4>Working across sectors to improve quality of life using smart technologies and real-time data.</h4></p>
+
           <div class="listings-menu" id="nyc-forward">
             <li class="list-group-item list-group-item-info"><b>Current Openings:</b></li>
-            <li class="empty-message list-group-item"><i>No openings at the moment.</i></li>
+            <li class="empty-message list-group-item" id="empty-message-forward" style="color: #555555; background-color: #F5F5F5; font-style: italic;">No openings at the moment.</li>
+            <!-- DO NOT DELETE EMPTY MESSAGE -->
             <a href="srproductmanager.html" class="list-group-item">Senior Product Manager</a>
             <a href="iotengineer.html" class="list-group-item">IoT Engineer</a>
           </div>
 <br>
 
            <p> <b><h4>NYC X</b></h4>
-            <p><h4>Making NYC the best place to responsibly develop, test, and launch breakthrough technologies.</h4></p>
+             <p><h4>Making NYC the best place to responsibly develop, test, and launch breakthrough technologies.</h4></p>
 
             <div class="listings-menu"  id="nyc-x">
               <li class="list-group-item list-group-item-info"><b>Current Openings:</b></li>
-              <li class="empty-message list-group-item"><i>No openings at the moment.</i></li>
+              <li class="empty-message list-group-item" id="empty-message-x" style="color: #555555; background-color: #F5F5F5; font-style: italic;">No openings at the moment</li>
+              <!-- DO NOT DELETE EMPTY MESSAGE -->
               <a href="srfuturist.html" class="list-group-item">Senior Futurist</a>
-              
             </div>
 <br>
             <p><b><h4>NYC Digital</b></h4>
-            <p><h4>Developing tools and strategies to help create user-centered digital services that make government more accessible.</h4></p>
+              <p><h4>Developing tools and strategies to help create user-centered digital services that make government more accessible.</h4></p>
 
             <div class="listings-menu" id="nyc-digital">
               <li class="list-group-item list-group-item-info"><b>Current Openings:</b></li>
-              <li class="empty-message list-group-item"><i>No openings at the moment.</i></li> 
-        
+              <li class="empty-message list-group-item" id="empty-message-digital" style="color: #555555; background-color: #F5F5F5; font-style: italic;">No openings at the moment</li>
+              <!-- DO NOT DELETE EMPTY MESSAGE -->
             </div>
 
 <br>
@@ -157,8 +175,8 @@
 
             <div class="listings-menu" id="nyc-connected">
               <li class="list-group-item list-group-item-info"><b>Current Openings:</b></li>
-              <li class="empty-message list-group-item"><i>No openings at the moment.</i></li>
-              
+              <li class="empty-message list-group-item" id="empty-message-connected" style="color: #555555; background-color: #F5F5F5; font-style: italic;">No openings at the moment.</li>
+              <!-- DO NOT DELETE EMPTY MESSAGE -->
             </div>
         </div>
       </div>
