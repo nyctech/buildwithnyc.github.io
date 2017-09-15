@@ -1,3 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nyc-header {
+  background-color: #000000;
+  color: white;
+  width: 100%;
+}
+
+.nyc-footer {
+  background-color: #000000;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.headfoot-block-left {
+    background-color: #000000;
+    float: left;
+    text-align: left;
+    padding: 0.25rem 0 0.25rem;
+    padding-top: 0.25rem;
+    padding-right: 0px;
+    padding-bottom: 0.25rem;
+    padding-left: 15%;
+    height: 27px;
+    width: 50%;
+}
+
+.headfoot-block-right {
+    background-color: #000000;
+    float: right;
+    text-align: right;
+    padding: 0.25rem 0 0.25rem;
+    padding-top: 0.25rem;
+    padding-right: 15%;
+    padding-bottom: 0.25rem;
+    padding-left: 0px;
+    height: 27px;
+    width: 50%;
+}
+
+.headfoot-block-bottom {
+    background-color: #000000;
+    padding-top: 0.25rem;
+    padding-right: 15%;
+    padding-bottom: 0.25rem;
+    padding-left: 0px;
+    height: 27px;
+    width: 100%;
+}
+
+a.headfoot-link {
+  color: white;
+}
+
+a.headfoot-link:hover {
+  text-decoration: underline;
+}
+
+.bottom-footer {
+  background-color: #000000;
+}
+
+.nyc-toplogo {
+  height: 20px;
+}
+
 .jumbotron {
   background-color: #3356A5;
 }
