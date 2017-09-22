@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .nyc-header {
@@ -69,13 +70,13 @@ a.headfoot-link:hover {
 }
 
 .jumbotron {
-  background-color: #3356A5;
+  background-color: #a6bfcc;
 }
 .jumbotron h1 {
-    color: #fff;
+    color: black;
 }
 .jumbotron p {
-    color: #fff;
+    color: black;
 }
 .btn-primary {
     color: #fff;
@@ -88,17 +89,17 @@ a.headfoot-link:hover {
     border-color: #2F334F;
 }
 p.lead {
-  color: #fff;
+  color: black;
 }
 .panel-primary> .panel-heading {
-    color: #fff;
-    background-color: #3356A5;
-    border-color: #3356A5;
+    color: black;
+    background-color: #a6bfcc;
+    border-color: #a6bfcc;
 }
 .btn-success {
     color: #fff;
-    background-color: #3356A5;
-    border-color: #3356A5;
+    background-color: #a6bfcc;
+    border-color: #a6bfcc;
     box-shadow: 0px 0px 2px #333;
 }
 .btn-success:hover {
@@ -106,7 +107,7 @@ p.lead {
     border-color: #2F334F;
 }
 .panel-primary {
-    border-color: #3356A5;
+    border-color: #a6bfcc;
     background-color: #f5f5f5;
 }
 a {
