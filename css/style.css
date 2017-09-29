@@ -4,6 +4,10 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+p {
+  font-weight: 400;
+}
+
 .nyc-header {
   background-color: #000000;
   color: white;

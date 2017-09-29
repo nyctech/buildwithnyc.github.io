@@ -1297,7 +1297,7 @@ p {
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
@@ -4263,7 +4263,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
+    padding-top:15px padding-bottom:15px;
     padding-bottom: 15px;
   }
 }

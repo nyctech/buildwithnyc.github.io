@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  $('body').prepend("<header class='nyc-header'></header><br></br>")
+  $('body').prepend("<header class='nyc-header'></header><br>")
   $('body').append("<footer class='nyc-footer'></footer>")
 
   $(".nyc-header").load("../header.html");
