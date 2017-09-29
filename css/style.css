@@ -125,10 +125,20 @@ a {
     color: #25237a;
 }
 
-font.underline-on-hover:hover {
+.underline-on-hover {
   text-decoration: underline;
+  color: black;
+}
+
+.underline-on-hover:hover {
+  color: #F9A137;
 }
 
 .list-group-item-info {
   color: #2F334F;
   background-color: #FCBC70;
+}
+
+li {
+   margin: 0 0 10px 0;
+}
